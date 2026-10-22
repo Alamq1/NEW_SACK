@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['c-belt-sack-count']
+
+roboflow:
+  workspace: ovais-alam-qureshi
+  project: c_belt_sack_count
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ovais-alam-qureshi/c_belt_sack_count/dataset/1

@@ -1,0 +1,9 @@
+train: train/images
+val: valid/images
+
+nc: 4
+names:
+  - Rice-bag-10
+  - c-belt
+  - other
+  - pile

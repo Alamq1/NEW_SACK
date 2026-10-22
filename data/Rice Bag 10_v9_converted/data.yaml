@@ -1,0 +1,7 @@
+path: C:/Users/user.DESKTOP-J1I5NAC/Desktop/NEW_SACK_COUNT/data/Rice Bag 10_v9_converted
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: rice_bag

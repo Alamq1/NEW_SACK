@@ -1,0 +1,10 @@
+path: /home/aiteam/NEW_SACK_COUNT/data/v_15_keypoints_ready/v_15_keypoints_ready
+
+train: images/train
+val: images/val
+
+kpt_shape: [1, 3]
+flip_idx: [0]
+
+names:
+  0: bag

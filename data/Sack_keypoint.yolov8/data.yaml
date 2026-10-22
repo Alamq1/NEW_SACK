@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Sack-2']
+
+roboflow:
+  workspace: ovais-alam-qureshi
+  project: sack_2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ovais-alam-qureshi/sack_2/dataset/2

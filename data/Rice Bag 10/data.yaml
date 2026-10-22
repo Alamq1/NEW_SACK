@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Rice-bag-10']
+
+roboflow:
+  workspace: ovais-alam-qureshi
+  project: rice-bag-10
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ovais-alam-qureshi/rice-bag-10/dataset/1
