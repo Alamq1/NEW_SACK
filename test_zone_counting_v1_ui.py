@@ -3584,7 +3584,7 @@ import cv2
 import numpy as np
 import threading
 
-BASE_DIR = os.path.expanduser("~/ZONE_COUNTING")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_DIR, "runs", "segment",
                           "zone_counting_yolo26l_seg_v1_1280",
                           "weights", "best.pt")
