@@ -1,0 +1,17 @@
+runs/*
+!runs/segment/
+runs/segment/*
+!runs/segment/zone_counting_yolo26l_seg_v1_1280/
+runs/segment/zone_counting_yolo26l_seg_v1_1280/*
+!runs/segment/zone_counting_yolo26l_seg_v1_1280/weights/
+runs/segment/zone_counting_yolo26l_seg_v1_1280/weights/*
+!runs/segment/zone_counting_yolo26l_seg_v1_1280/weights/best.pt
+
+uploads/
+test_uploads/
+test_outputs/
+zone_outputs/
+__pycache__/
+.venv/
+venv/
+.env
